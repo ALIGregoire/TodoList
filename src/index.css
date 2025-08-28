@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@import "flowbite/src/themes/default";
+@plugin "daisyui";
+@theme {
+  --color-primary-color: #4361ee;
+  --color-secondary-color: #3f37c9;
+  --color-light-color: #f8f9fa;
+  --color-dark-color: #212529;
+  --color-gray-color: #adb5bd;
+  --color-other-color: #f5f7fa;
+}
